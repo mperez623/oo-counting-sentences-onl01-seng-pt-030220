@@ -15,9 +15,10 @@ class String
   end
 
   def count_sentences
-    arr = self.split(/[!.?]/)
-    x != ""
-    arr.length 
+    arr = self.split(/[!.?]/) 
+    short_array = arr.select do |x|
+      x != ""
+    short_array.length 
   end
 end
 
