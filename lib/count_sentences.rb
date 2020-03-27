@@ -18,6 +18,7 @@ class String
     arr = self.split(/[!.?]/) 
     short_array = arr.select do |x|
       x != ""
+    end
     short_array.length 
   end
 end
